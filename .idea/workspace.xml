@@ -1,49 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7bcadf3d-67b1-4cfb-9d4b-7605a315e79f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseSocket/src/com/study/tcp/TCP.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/UDP.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-reflect.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-jdk8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-stdlib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test-sources.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/kotlin-test.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/box/StringReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/box/StringSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/AsyncReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/AsyncSendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/ReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/ReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/SendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/SendPacket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BaseChatRoom/BaseChatRoom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseChatRoom/BaseChatRoom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseSocket/BaseSocket.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BaseSocket/BaseSocket.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/MessageCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/MessageCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/UDPProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/UDPProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/UDPSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/BaseSocket/src/com/study/udp/UDPSearcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NIOChatRoom/NIOChatRoom.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/NIOChatRoom.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SocketStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SocketStudy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/MessageCreator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/MessageCreator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPProvider$Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPProvider$Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher$Device.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher$Device.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher$Listener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher$Listener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BaseSocket/com/study/udp/UDPSearcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/client/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/client/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/client/TCPClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/client/TCPClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/Connector.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/Connector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/IoArgs.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/IoArgs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/IoProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/IoProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/core/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/impl/SocketChannelAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/libclink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/server/TCPServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/server/TCPServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NIOChatRoom/src/com/study/server/handle/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/NIOChatRoom/src/com/study/server/handle/ClientHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NIOChatRoom/META-INF/NIOChatRoom.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="SocketStudy" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -63,17 +73,17 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -94,13 +104,13 @@
       <recent name="com.study.libclink.core" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UDPSearcher">
-    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.tcpandudp.client.Client" />
-      <module name="BaseSocket" />
+  <component name="RunManager" selected="Application.Client (1)">
+    <configuration name="Client (1)" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.client.Client" />
+      <module name="NIOChatRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.tcpandudp.client.*" />
+          <option name="PATTERN" value="com.study.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.study.tcp.Server" />
-      <module name="BaseSocket" />
+    <configuration name="Server (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.study.server.Server" />
+      <module name="NIOChatRoom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.tcp.*" />
+          <option name="PATTERN" value="com.study.server.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,32 +172,20 @@
     </configuration>
     <list>
       <item itemvalue="Application.UDPSearcher" />
-      <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.UDPProvider" />
-      <item itemvalue="Application.Server" />
       <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server (1)" />
+      <item itemvalue="Application.Client (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (1)" />
+        <item itemvalue="Application.Server (1)" />
         <item itemvalue="Application.UDPSearcher" />
         <item itemvalue="Application.UDPProvider" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Server" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -203,144 +201,68 @@
       <workItem from="1581647238568" duration="18848000" />
       <workItem from="1581750703603" duration="2922000" />
       <workItem from="1581753819953" duration="11133000" />
+      <workItem from="1599357646417" duration="6582000" />
+      <workItem from="1600575039150" duration="3002000" />
+      <workItem from="1600696037263" duration="3406000" />
+      <workItem from="1600782631661" duration="3172000" />
+      <workItem from="1600866811874" duration="9258000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="128" key="#Inspections" timestamp="1581590082315">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="689" y="170" key="#Client_(1)" timestamp="1600875668033">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="320" y="128" key="#Inspections/0.23.1440.877@0.23.1440.877" timestamp="1581590082315" />
-    <state x="320" y="128" width="813" height="666" key="#Project_Structure" timestamp="1581563510864">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="689" y="170" key="#Client_(1)/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875668033" />
+    <state x="830" y="261" key="#com.intellij.ide.util.MemberChooser" timestamp="1600871851083">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="320" y="128" width="813" height="666" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1581563510864" />
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581662630159">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="830" y="261" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600871851083" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1600875866965">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581662630159" />
-    <state x="453" y="271" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581753602603">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875866965" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1600875866965">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="453" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753602603" />
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser" timestamp="1581592372364">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875866965" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1600875866965">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="533" y="174" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1581592372364" />
-    <state x="15" y="38" width="1410" height="847" maximized="true" key="DiffContextDialog" timestamp="1581603484143">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875866965" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1600875866965">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="15" y="38" width="1410" height="847" maximized="true" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1581603484143" />
-    <state width="1398" height="174" key="GridCell.Tab.0.bottom" timestamp="1581767587514">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875866965" />
+    <state x="505" y="130" key="SettingsEditor" timestamp="1600875171688">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1398" height="174" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581767587514" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581676195701" />
-    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581684207926" />
-    <state width="1398" height="174" key="GridCell.Tab.0.center" timestamp="1581767587513">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="505" y="130" key="SettingsEditor/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875171688" />
+    <state x="723" y="154" width="602" height="804" key="find.popup" timestamp="1600875725599">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1398" height="174" key="GridCell.Tab.0.center/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581767587513" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581676195698" />
-    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581684207926" />
-    <state width="1398" height="174" key="GridCell.Tab.0.left" timestamp="1581767587512">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="723" y="154" width="602" height="804" key="find.popup/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600875725599" />
+    <state x="681" y="210" width="670" height="676" key="search.everywhere.popup" timestamp="1600697955374">
+      <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1398" height="174" key="GridCell.Tab.0.left/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581767587512" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581676195696" />
-    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581684207925" />
-    <state width="1398" height="174" key="GridCell.Tab.0.right" timestamp="1581767587513">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="174" key="GridCell.Tab.0.right/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581767587513" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581676195700" />
-    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581684207926" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom" timestamp="1581753712919">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753712919" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581663031847" />
-    <state width="1398" height="285" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581684207928" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center" timestamp="1581753712918">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753712918" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581663031846" />
-    <state width="1398" height="285" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1581684207927" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left" timestamp="1581753712917">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753712917" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581663031845" />
-    <state width="1398" height="285" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1581684207927" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right" timestamp="1581753712918">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753712918" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581663031846" />
-    <state width="1398" height="285" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1581684207927" />
-    <state width="1398" height="285" key="GridCell.Tab.2.bottom" timestamp="1581578367240">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.2.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581578367240" />
-    <state width="1398" height="285" key="GridCell.Tab.2.center" timestamp="1581578367239">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.2.center/0.23.1440.877@0.23.1440.877" timestamp="1581578367239" />
-    <state width="1398" height="285" key="GridCell.Tab.2.left" timestamp="1581578367239">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.2.left/0.23.1440.877@0.23.1440.877" timestamp="1581578367239" />
-    <state width="1398" height="285" key="GridCell.Tab.2.right" timestamp="1581578367240">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1581578367240" />
-    <state width="1398" height="285" key="GridCell.Tab.3.bottom" timestamp="1581578219073">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.3.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581578219073" />
-    <state width="1398" height="285" key="GridCell.Tab.3.center" timestamp="1581578219072">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.3.center/0.23.1440.877@0.23.1440.877" timestamp="1581578219072" />
-    <state width="1398" height="285" key="GridCell.Tab.3.left" timestamp="1581578219069">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.3.left/0.23.1440.877@0.23.1440.877" timestamp="1581578219069" />
-    <state width="1398" height="285" key="GridCell.Tab.3.right" timestamp="1581578219072">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1398" height="285" key="GridCell.Tab.3.right/0.23.1440.877@0.23.1440.877" timestamp="1581578219072" />
-    <state x="221" y="100" key="SettingsEditor" timestamp="1581602459832">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="221" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1581602459832" />
-    <state x="374" y="296" key="com.intellij.ide.util.TipDialog" timestamp="1581753891596">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="374" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581753891596" />
-    <state x="374" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581647250932" />
-    <state x="374" y="296" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1581750706274" />
-    <state x="267" y="206" width="905" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1581577892451">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="267" y="206" width="905" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.877@0.23.1440.877" timestamp="1581577892451" />
-    <state x="1440" y="-1419" width="1418" height="2415" maximized="true" key="dock-window-1" timestamp="1584280942520">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="1280" y="-1502" width="1440" height="2437" key="dock-window-1/0.23.1280.777/1280.-1502.1440.2537@0.23.1280.777" timestamp="1581751928450" />
-    <state x="1280" y="-1737" width="1440" height="2437" key="dock-window-1/0.23.1280.777/1280.-1737.1440.2537@0.23.1280.777" timestamp="1581751855958" />
-    <state x="1440" y="-1419" width="1418" height="2415" maximized="true" key="dock-window-1/0.23.1440.877/1440.-1502.1440.2537@0.23.1440.877" timestamp="1581763066366" />
-    <state x="1440" y="-613" width="2529" height="1405" maximized="true" key="dock-window-1/0.23.1440.877/1440.-617.2560.1417@0.23.1440.877" timestamp="1581751725023" />
-    <state x="97" y="67" key="new project wizard" timestamp="1581563385638">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="97" y="67" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1581563385638" />
+    <state x="681" y="210" width="670" height="676" key="search.everywhere.popup/0.0.2048.1112/2560.-576.1152.2008@0.0.2048.1112" timestamp="1600697955374" />
   </component>
 </project>

@@ -45,6 +45,11 @@ public interface IoProvider extends Closeable {
             this.attach = attach;
         }
 
+        @SuppressWarnings("unchecked")
+        public final <T> T getAttach() {
+            return (T) attach;
+        }
+
         protected abstract void canProviderOutput(Object attach);
     }
 }

@@ -120,6 +120,7 @@ public class TCPServer implements ClientHandler.ClientHandlerCallback {
                      * selector.select()是一个会阻塞的方法，当有事件到达时方法返回
                      * select()/selectNow()一个通道Channel，处理一个当前的可用的
                      * 待处理的通道数据
+                     * 这里判断是0是在被wakeUp时候被触发，所以这里可以关闭退出
                      */
                     if (selector.select() == 0){
                         if(done) break;

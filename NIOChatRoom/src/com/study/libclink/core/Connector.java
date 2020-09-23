@@ -1,5 +1,7 @@
 package com.study.libclink.core;
 
+import com.study.libclink.box.StringReceivePacket;
+import com.study.libclink.box.StringSendPacket;
 import com.study.libclink.impl.SocketChannelAdapter;
 
 import java.io.Closeable;
@@ -19,6 +21,8 @@ public class Connector implements Closeable, SocketChannelAdapter.OnChannelStatu
      */
     private Sender sender;
     private Receiver receiver;
+    private SendDispatcher sendDispatcher;
+    private ReceiveDispatcher receiveDispatcher;
 
     public void setUp(SocketChannel socketChannel) throws IOException {
         this.channel = socketChannel;
@@ -26,22 +30,23 @@ public class Connector implements Closeable, SocketChannelAdapter.OnChannelStatu
         SocketChannelAdapter adapter = new SocketChannelAdapter(channel, context.getIoProvider(), this);
         this.sender = adapter;
         this.receiver = adapter;
-
-        readNextMessage();
+        sendDispatcher = new AsyncSendDispatcher(sender);
+        receiveDispatcher = new AsyncReceiveDispatcher(receiver, receivePacketCallback);
+        //接收启动
+        receiveDispatcher.start();
     }
 
-    private void readNextMessage() {
-        if (receiver != null) {
-            try {
-                receiver.receiveAsync(echoReceiveListener);
-            } catch (IOException e) {
-                System.out.println("开始接收数据异常：" + e.getMessage());
-            }
-        }
+    public void send(String msg){
+        SendPacket packet = new StringSendPacket(msg);
+        sendDispatcher.send(packet);
     }
 
     @Override
     public void close() throws IOException {
+        receiveDispatcher.close();
+        sendDispatcher.close();
+        sender.close();
+        receiver.close();
         channel.close();
     }
 
@@ -50,22 +55,14 @@ public class Connector implements Closeable, SocketChannelAdapter.OnChannelStatu
 
     }
 
-    private IoArgs.IoArgsEventListener echoReceiveListener = new IoArgs.IoArgsEventListener() {
-        @Override
-        public void onStarted(IoArgs args) {
-
-        }
-
-        @Override
-        public void onCompleted(IoArgs args) {
-            //打印
-            onReceiveNewMessage(args.bufferString());
-            //读取下一条数据
-            readNextMessage();
-        }
-    };
-
     protected void onReceiveNewMessage(String str) {
         System.out.println(key.toString() + ": " + str);
     }
+
+    private final ReceiveDispatcher.ReceivePacketCallback receivePacketCallback = packet -> {
+        if (packet instanceof StringReceivePacket){
+            String msg = ((StringReceivePacket) packet).string();
+            onReceiveNewMessage(msg);
+        }
+    };
 }
